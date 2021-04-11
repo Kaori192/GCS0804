@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JQuery Mobile LAb 3: SPA-Single Page Application</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="http:////code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5..min.css"/>
+</head>
+<body>
+<div data-role="page" id="home">
+<div data-role="head">
+<p>home page header</p>
+		</div>
+		<div data-role="main">
+			<p>Home main content</p>
+			<a href="#page1" class="ui-btn">Click here</a>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<p>Home footer</p>
+		</div>
+	</div>
+	
+	<div data-role="page" id="page1">
+		<div data-role="header">
+			<p>Page1 header</p>
+		</div>
+		<div data-role="main">
+			<p>Page1 main content</p>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<p>Page1 footer</p>
+			<a href="#home">Back to home</a>
+		</div>
+	</div>
+	</body>
+</html>
