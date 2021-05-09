@@ -1,0 +1,20 @@
+#container {
+    width:60%;
+    margin:0 auto;
+    font-family:sans-serif;
+
+}
+#form {
+    border:1px solid #ccc;
+    background-color:#fdfdfd;
+    overflow: auto;
+    box-shadow: 1x 1px #eee;
+
+}
+header {
+    text-align: center;
+}
+h1{
+    font-size: 1em;
+    color: aqua;
+}
